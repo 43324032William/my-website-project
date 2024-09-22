@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>NETWORK MANAGEMENT'24</title>
+    <link rel="icon" type="image/png" href="NM24.png">
+<style>
+        body {
+            background-color: #f8f9fa;
+            background-image: url('wallpaper3.jpg'); /* Replace with your image file path */
+            background-size: cover; /* Cover the entire page */
+            background-position: center; /* Center the image */
+            background-attachment: fixed; /* Keep the background fixed on scroll */
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-nav .nav-link {
+            color: #ffffff; /* Change this to your preferred color */
+        }
+        .navbar-nav .nav-link.active {
+            color: #d4d4d4; /* Change this to your preferred color for the active link */
+        }
+        .card {
+            transition: transform 0.2s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+            background-image: url('wallpaper2.jpg'); /* If needed */
+        }
+        .card-title {
+            color: #ffffff; /* Change this to your preferred color */
+        }
+        .card-text {
+            color: #ffffff; /* Change this to your preferred color */
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #ffffff; /* Change this to your preferred color */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">NETWORK MANAGEMENT'24</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="visimisi.html">Visi Misi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="matakuliah.html">Mata Kuliah</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dosen.html">Daftar Dosen Pengajar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Struktur Kelas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="struktur_kelas.html">Perangkat Kelas</a></li>
+                            <li><a class="dropdown-item" href="anggotakelas.html">Anggota Kelas</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Mata Kuliah Yang Diikuti di Semester-1</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="matdis.png" class="card-img-top" alt="Matematika Diskrit">
+                    <div class="card-body">
+                        <h5 class="card-title">Matematika Diskrit (MATDIS)</h5>
+                        <p class="card-text">Cabang matematika yang berfokus pada studi struktur dan objek yang tidak bersifat kontinu.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="daspro.jpg" class="card-img-top" alt="Dasar Pemrograman">
+                    <div class="card-body">
+                        <h5 class="card-title">Dasar Pemrograman (Daspro)</h5>
+                        <p class="card-text">Konsep-konsep fundamental untuk memahami dan menulis kode dalam berbagai bahasa pemrograman.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="psw.jpg" class="card-img-top" alt="Pembuatan Situs Web">
+                    <div class="card-body">
+                        <h5 class="card-title">Pembuatan Situs Web (PSW)</h5>
+                        <p class="card-text">Teknik dan teknologi untuk merancang, mengembangkan, dan memelihara situs web.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="eng.jpg" class="card-img-top" alt="English - I">
+                    <div class="card-body">
+                        <h5 class="card-title">English - I</h5>
+                        <p class="card-text">Meningkatkan keterampilan bahasa Inggris dalam komunikasi lisan dan tulisan.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="delcha.png" class="card-img-top" alt="Del Character">
+                    <div class="card-body">
+                        <h5 class="card-title">Del Character (DELCHA)</h5>
+                        <p class="card-text">Pengembangan karakter siswa untuk membentuk karakter mahasiswa yang lebih baik.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="aok.png" class="card-img-top" alt="Arsitektur dan Organisasi Komputer">
+                    <div class="card-body">
+                        <h5 class="card-title">Arsitektur dan Organisasi Komputer (AOK)</h5>
+                        <p class="card-text">Pemahaman tentang desain dan organisasi komputer serta cara kerja komponen komputer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="daspro.jpg" class="card-img-top" alt="Rekayasa Perangkat Lunak">
+                    <div class="card-body">
+                        <h5 class="card-title">Rekayasa Perangkat Lunak (RPL)</h5>
+                        <p class="card-text">Teknik dan metode untuk merancang, mengembangkan, dan memelihara perangkat lunak.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
